@@ -6,13 +6,11 @@ const dateOfManufacture = document.querySelector('#dateOfManufacture');
 
 const fetchDroid = function() {
 	fetch('https://swapi.co/api/people/8/').then((response) => response.json()).then((data) => {
-		console.log(data);
-
-		name.innerText = '${data.name} Unit';
-		size.innerText = 'Height of ${data.height} cm';
-		color.innerText = 'Color: ${data.color} and white';
-		shippingWeight.innerText = 'Shipping Weight: ${data.mass} kg';
-		dateOfManufacture.innerText = 'Date of Manufacture: ${data.birth_year}';
+		name.innerText = `${data.name} Unit`;
+		size.innerText = `Height of ${data.height} cm`;
+		color.innerText = `Color: ${data.color} and white`;
+		shippingWeight.innerText = `Shipping Weight: ${data.mass} kg`;
+		dateOfManufacture.innerText = `Date of Manufacture: ${data.birth_year}`;
 	});
 };
 
