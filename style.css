@@ -16,6 +16,8 @@ body {
 	font-family: 'Galactic Basic';
 	/* font-family: 'Space Mono', monospace; */
 	height: 100vh;
+	max-width: 800px;
+	min-width: 625px;
 	background-color: rgba(0, 0, 0, 0.9);
 }
 
@@ -27,6 +29,7 @@ body {
 
 main {
 	margin: 3rem, 0, 0, 0;
+	max-width: 800px;
 }
 
 .container1 {
