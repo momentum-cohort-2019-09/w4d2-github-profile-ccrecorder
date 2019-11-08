@@ -8,7 +8,7 @@
 
 @font-face {
 	font-family: 'Galactic Basic';
-	src: url('galacticBasic.otf') format(otf);
+	src: url('galacticBasic.otf') format(.otf);
 }
 
 body {
